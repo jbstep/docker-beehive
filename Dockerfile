@@ -2,7 +2,7 @@ FROM golang:1.9-alpine
 MAINTAINER Joel Stephens https://github.com/jbstep
 LABEL authors="Gabriel Alacchi: alacchi.g@gmail.com, Christian Muehlhaeuser: muesli@gmail.com, Henry Wang: henry@wangqiru.com"
 
-# URL has to be set to the URL of Beehive admin interface
+# URL has to be set to the URL of Beehive administrator interface
 ENV URL=http://localhost:8181
 
 # Install dependencies and beehive
