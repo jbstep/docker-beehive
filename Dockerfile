@@ -3,7 +3,7 @@ MAINTAINER Joel Stephens https://github.com/jbstep
 LABEL authors="Gabriel Alacchi: alacchi.g@gmail.com, Christian Muehlhaeuser: muesli@gmail.com, Henry Wang: henry@wangqiru.com"
 
 # URL has to be set to the URL of Beehive admin interface
-ENV URL=http://192.168.0.225:8181
+ENV URL=http://localhost:8181
 
 # Install dependencies and beehive
 RUN apk add --no-cache git build-base --no-cache && \
